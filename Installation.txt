@@ -1,0 +1,26 @@
+Required cx_Freeze installed in your computer to create EXE
+1. Open cmd
+2. Go to this file directory
+3. a. Type python Setup.py bdist_msi to create installer
+   b. Type python Setup.py build to create executable files
+4. Play the game using interface.exe
+
+
+Guide to read comments inside .py
+1.|#(Description about what the code below is used for) |
+  |(The Code)                                           |
+
+2.|#(Description of codes below is used for(before another comments))
+  |code a
+  |code b
+  |code c
+3.(Exclusive for randomizer_audio.py)
+    |#DescriptionA
+    |#DescriptionB
+    |#DescriptionC
+    |#DescriptionD
+    |code1
+    |code2
+    |code3
+    |code4
+  the detail: the whole description is to describe what the whole code below is used for before another comments
