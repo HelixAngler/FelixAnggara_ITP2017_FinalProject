@@ -1,9 +1,10 @@
 Required cx_Freeze installed in your computer to create EXE
-1. Open cmd
-2. Go to this file directory
-3. a. Type python Setup.py bdist_msi to create installer
+1. Open Setup.py and change the os.environ based from your tk and tcl directory (it's inside your python directory)
+2. Open cmd
+3. Go to this file directory
+4. a. Type python Setup.py bdist_msi to create installer
    b. Type python Setup.py build to create executable files
-4. Play the game using interface.exe
+5. Play the game using interface.exe
 
 
 Guide to read comments inside .py
